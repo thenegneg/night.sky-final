@@ -1,0 +1,99 @@
+div.body{
+  background-image: linear-gradient(to bottom, #05000e, #07101f, #050d1c, #04225d, #0f192c, #030319, #010010);
+}
+div.submenu>ul{
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(32, 15, 58), rgb(0, 0, 0));
+}
+
+
+div.header>div.icon{
+    left: calc(50% - 100px / 2);
+}
+
+
+div.sixpart > div.partial>div.img01{
+  background-image: url(../img/six-part/list-ns4-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+div.sixpart > div.partial>div.img02{
+  background-image: url(../img/six-part/list-ns4-2-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+div.sixpart > div.partial>div.img03{
+  background-image: url(../img/six-part/list-ns4-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+div.sixpart > div.partial>div.img04{
+  background-image: url(../img/six-part/list-ns4-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+div.sixpart > div.partial>div.img05{
+  background-image: url(../img/six-part/list-ns4-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+div.sixpart > div.partial>div.img06{
+  background-image: url(../img/six-part/list-ns4-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.magic{
+  background-image: url(../img/magic/bgfixed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
